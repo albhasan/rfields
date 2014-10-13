@@ -1,4 +1,5 @@
+#test_Extent.R
 library(testthat)
 library(rfields)
 
-expect_that(TRUE, is_true())
+expect_that(length(new("Extent")), equals(0))

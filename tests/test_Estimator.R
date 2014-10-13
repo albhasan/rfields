@@ -1,4 +1,5 @@
+#test_Estimator.R
 library(testthat)
 library(rfields)
 
-expect_that(TRUE, is_true())
+expect_that(length(new("Estimator")), equals(0))

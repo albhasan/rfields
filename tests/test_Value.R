@@ -1,4 +1,5 @@
+#test_Value.R
 library(testthat)
 library(rfields)
 
-expect_that(TRUE, is_true())
+expect_that(length(new("Value")), equals(0))
