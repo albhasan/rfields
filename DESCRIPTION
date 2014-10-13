@@ -1,0 +1,11 @@
+Package: rfields
+Type: Package
+Title: Implementation of fields according to Camara
+Version: 0.1
+Date: 2014-10-10
+Author: Alber Sanchez
+Maintainer: Alber Sanchez <a.sanchez@uni-muenster.de>
+Description: Fields
+License: MIT + file LICENSE
+Depends: testthat, methods
+Collate: Position.R Value.R Extent.R Estimator.R Field.R
