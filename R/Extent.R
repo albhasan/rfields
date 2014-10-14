@@ -52,6 +52,11 @@ setMethod(
 )
 
 
+extent <- function(minPosition, maxPosition){
+  cat ("~~~~~ Extent: User fiendly constructor ~~~~~ \n")
+  new (Class = "Extent", minPosition = minPosition, maxPosition = maxPosition)
+}
+
 
 #*******************************************************
 #ACCESSORS

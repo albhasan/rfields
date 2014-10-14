@@ -48,6 +48,10 @@ setMethod(
 )
 
 
+value <- function(valueSet){
+  cat ("~~~~~ Value: User fiendly constructor ~~~~~ \n")
+  new (Class = "Value", valueSet = valueSet)
+}
 
 #*******************************************************
 #ACCESSORS

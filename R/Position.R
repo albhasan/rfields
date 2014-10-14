@@ -22,8 +22,8 @@ setClass (
     cat("~~~ Position: inspector ~~~ \n")
     coords <- object@coords
     if(is.null(coords)){
-      stop ("[Position: coords is NULL")
-    }else{}
+      stop ("Position: coords is NULL")
+    }
     return(TRUE)
   }
 )
@@ -47,7 +47,10 @@ setMethod(
   }
 )
 
-
+position <- function(coords){
+  cat ("~~~~~ Position: User fiendly constructor ~~~~~ \n")
+  new (Class = "Position", coords = coords)
+}
 
 #*******************************************************
 #ACCESSORS

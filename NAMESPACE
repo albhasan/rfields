@@ -2,4 +2,4 @@
 
 exportClasses(Estimator, Extent, Field, Position, Value)
 
-import(testthat, methods)
+import(testthat, methods, sp)

@@ -7,5 +7,5 @@ Author: Alber Sanchez
 Maintainer: Alber Sanchez <a.sanchez@uni-muenster.de>
 Description: Fields
 License: MIT + file LICENSE
-Depends: testthat, methods
+Depends: testthat, methods, sp
 Collate: Position.R Value.R Extent.R Estimator.R Field.R

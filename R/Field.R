@@ -38,7 +38,6 @@ setClass (
 )
 
 
-
 #*******************************************************
 #CONSTRUCTOR
 #*******************************************************
@@ -64,6 +63,10 @@ setMethod(
 )
 
 
+field <- function(extent, position, value, estimator){
+  cat ("~~~~~ Field: User fiendly constructor ~~~~~ \n")
+  new (Class = "Field", extent = extent, position = position, value = value, estimator = estimator)
+}
 
 #*******************************************************
 #ACCESSORS

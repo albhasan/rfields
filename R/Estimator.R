@@ -58,6 +58,11 @@ setMethod(
 )
 
 
+estimator <- function(knownPosition, valueSubset, unknownPosition){
+  cat ("~~~~~ Estimator: User fiendly constructor ~~~~~ \n")
+  new (Class = "Estimator", knownPosition = knownPosition, valueSubset = valueSubset, unknownPosition = unknownPosition)
+}
+
 #*******************************************************
 #ACCESSORS
 #*******************************************************
