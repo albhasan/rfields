@@ -23,7 +23,7 @@ setClass (
     unknownPosition = "Position"
   ),
   validity = function(object){
-    cat("~~~ ValueReduct: inspector ~~~ \n")
+    cat("~~~ Estimator: inspector ~~~ \n")
     P <- object@knownPosition
     V <- object@valueSubset
     UP <- object@unknownPosition
